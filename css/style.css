@@ -1,0 +1,139 @@
+body {
+  background-color: #f0ecee;
+  font-family: 'Fira Sans';
+}
+header {
+  display: flex;
+  flex-direction: column;
+}
+.menu {
+  flex: 1;
+}
+li {
+  display: block;
+  margin-left: -30px;
+  font-size: 14pt;
+  font-weight: 400;
+}
+a {
+  color: #88898B;
+  text-decoration: none;
+}
+.adoptme {
+  color: black;
+  font-size: 18pt;
+  font-weight: 600;
+}
+.contact-us {
+  border: 10px;
+  background-color: #ff4850;
+  color: white
+}
+.red {
+  color: #ff4850;
+}
+button {
+  position: relative;
+  margin-top: 5%;
+  margin: 15px 0;
+  padding: 15px;
+  background-color: #ff4850;
+  color: white;
+  border-radius: 5px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 14pt;
+}
+button:hover {
+  background-color: #ccc;
+}
+h1 {
+  position: relative;
+  margin-left: 10px;
+  font-size: 30pt;
+  font-weight: 600;
+}
+p {
+  position: relative;
+  margin-left: 10px;
+  font-size: 12pt;
+  color: #88898b;
+  font-weight: 300;
+}
+a:hover {
+  color: #FF4850;
+}
+footer {
+  position: relative;
+  margin-left: 8px;
+}
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .adopt {
+    display: inline-flex;
+    margin-left: -5px;
+    align-self: flex-start;
+  }
+  .menu {
+    display: inline-flex;
+    margin-left: auto;
+    align-self: flex-end;
+  }
+  a {
+    color: #88898B;
+    text-decoration: none;
+  }
+  .adoptme {
+    color: black;
+    font-size: 18pt;
+    font-weight: 600;
+  }
+  .contact-us {
+    border: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ff4850;
+    color: white;
+    margin-right: 40px;    
+  }
+  body {
+    background-color: #f0ecee;
+    background-image: url("../bulldog.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  a {
+    padding: 10px;
+  }
+  h1 {
+    position: relative;
+    margin-top: 8%;
+    margin-left: 40px;
+    margin-right: 60%;
+    line-height: 45px;
+  }
+  p {
+    position: relative;
+    margin-top: 2%;
+    margin-left: 40px;
+    margin-right: 55%;
+    line-height: 30px;
+  }
+  button.how {
+    position: relative;
+    margin-top: 2%;
+    margin-left: 40px;
+    padding: 15px;
+    border-radius: 5px;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: auto;
+  }
+
+}
+ 
